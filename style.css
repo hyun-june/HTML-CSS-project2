@@ -1,7 +1,10 @@
 /* 과제1 Box CSS */
 .box {
   width: 200px;
-  border: 50px solid red;
+  background-color: #fff;
+  border: 50px solid transparent;
+  border-image: linear-gradient(red 0%, orange 100%);
+  border-image-slice: 1;
   margin: 20px;
   padding: 50px;
 }
@@ -11,11 +14,13 @@
 }
 
 .green {
-  border-color: green;
+  border-image: linear-gradient(#d0d0ff 0%, #9999c7 100%);
+  border-image-slice: 1;
 }
 
 .blue {
-  border-color: blue;
+  border-image: linear-gradient(#f5ffb9 0%, #f3ff21 100%);
+  border-image-slice: 1;
 }
 
 /* 과제2 CSS */
